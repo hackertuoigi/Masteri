@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1000px){
+		.header_bottom {
+		background-color: #101c2c;
+	}
+				.header_bottom,
+		nav.mobile_menu{
+			background-color: #101c2c !important;
+		}
+					.content .container .container_inner.default_template_holder,
+		.content .container .container_inner.page_container_inner {
+			padding-top:50pxpx !important; /*important because of the inline style on page*/
+		}
+	}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	
+	        section.parallax_section_holder{
+			height: auto !important;
+			min-height: 400px;
+		}
+		}
+@media only screen and (max-width: 768px){
+	
+			h2, h2 a {
+			font-size: 18px; 			line-height: 27px; 		    		}
+	
+	
+	
+	
+			h6, h6 a {
+			font-size: 14px; 			line-height: 23px; 		    		}
+	
+			body,
+		p {
+			font-size: 16px; 			line-height: 29px; 		    		}
+	
+	
+	}
+@media only screen and (max-width: 600px) {
+	
+			h2, h2 a {
+			font-size: 18px; 			line-height: 27px; 		    		}
+	
+			h3, h3 a {
+			font-size: 16px; 			line-height: 24px; 		    		}
+	
+	
+	
+			h6, h6 a {
+			font-size: 14px; 			line-height: 23px; 		    		}
+	
+			body,
+		p {
+			font-size: 14px; 			line-height: 27px; 		    		}
+	}
+@media only screen and (max-width: 480px){
+
+			section.parallax_section_holder {
+			height: auto !important;
+			min-height: 400px;
+		}
+	
+				.footer_bottom {
+			line-height: 24px;
+		}
+	
+	}
